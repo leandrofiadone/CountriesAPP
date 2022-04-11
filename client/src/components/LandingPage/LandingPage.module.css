@@ -1,0 +1,71 @@
+.container {
+  /* background: url('../../img/world.png') no-repeat center/cover; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container__title {
+  font-size: 4rem;
+  font-style: normal;
+  background-color:#9fd3c7;
+  border-radius: 15px;
+  padding: 25px;
+  color:#142d4c;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+    0 32px 16px rgba(0, 0, 0, 0.09);
+  opacity: 0.8;
+  box-shadow: #ececec 0.5px 0.5px 50px;
+  border-radius: 40px;
+}
+
+.container__button {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 8px 18px;
+  border-radius: 25px;
+  background-color: rgb(6, 83, 71);
+  color: rgb(255, 255, 255);
+}
+
+.container__p {
+  color: aliceblue;
+}
+
+
+body {
+  background:black url(http://fc01.deviantart.net/fs71/f/2012/160/b/9/stars_by_paulinemoss-d52un4e.jpg);
+  animation: stars 205s linear alternate;
+}
+
+/* #box {
+  background:url(https://www.etapainfantil.com/wp-content/uploads/2015/11/Mapamundi-para-imprimir.jpg);
+  background-size:cover;
+  border:2px solid #000;
+  border-radius:100%;
+  width:200px;
+  height:200px;
+  animation: movimiento 15s linear 0s infinite;
+  box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+             -8px -8px 15px #000 inset,
+             2px 2px 25px #000 inset,
+             -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+             25px 25px 45px RGBA(0,0,0, 0.45) inset;
+  margin:6em auto;
+  transform:rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+}
+
+@keyframes movimiento {
+  0% { background-position:0 0 }
+  100% { background-position:355px 0 }
+} */
+
+@keyframes stars {
+  0% { background-position:0 0 }
+  100% { background-position:0 100% }
+}

@@ -1,0 +1,78 @@
+.main {
+  display: grid;
+  grid-template-areas: 'navbar1 navbar2 navbar3';
+  width: 100vw;
+}
+
+.left {
+  display: flex;
+  grid-area: navbar1;
+  margin-left: 5rem;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(243, 233, 233);
+  gap: 0.5rem;
+  font-size: 25px;
+}
+
+.center {
+  font-size: 1.5rem;
+  grid-area: navbar2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.center-input-btn {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.right {
+  font-size: 1.1rem;
+  grid-area: navbar3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #142d4c;
+  width: 10rem;
+  border-radius: 4px;
+  justify-self: end;
+  margin-right: 1.5rem;
+}
+
+.right a {
+  color: aliceblue;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.input {
+  height: 32px;
+  width: 28rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.btn {
+  font-weight: bold;
+  height: 32px;
+  width: 6rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: #142d4c;
+  color: aliceblue;
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
+
+.right:hover {
+  color: rgb(255, 0, 149);
+  background-color: rgb(0, 0, 0);
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
